@@ -1,0 +1,109 @@
+.profilebar-container {
+    display: flex;
+    padding-right: 15px;
+    width: 100%;
+    margin: 20px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* This ensures padding and border are included in the element's total width and height */
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* The profile avatar section */
+.account-portrait {
+  flex: 1;
+  max-width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  max-height: 60%;
+}
+
+/* The right side of the profile */
+.right-panel {
+  max-width: 300px;
+  flex: 2;
+  padding-left: 2em;
+  box-sizing: border-box; /* Ensure padding is considered in the total width */
+  padding-bottom: 1%;
+}
+
+/* User information section */
+.right-panel .usr-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  font-weight: 550;
+}
+
+.right-panel .usr-stats-container {
+  /* margin-top: 20px; */
+  line-height: 1.5; 
+  font-size: large;
+  font-weight: 550;
+  font-size: medium; 
+  white-space: pre-line; 
+  font-family:  Roboto, Helvetica, Arial, sans-serif;
+  opacity: 60%;
+}
+
+
+/* The biography section */
+.right-panel .bio {
+  margin-top: 20px;
+  line-height: 1.5; 
+  font-weight: 400;
+  font-size: medium; 
+  white-space: pre-line; 
+  font-family:  Roboto, Helvetica, Arial, sans-serif;
+  opacity: 70%;
+}
+
+.account-portrait .profilebar-avatar{
+   --diameter: 7vh; 
+    width: var(--diameter);
+    height: var(--diameter);
+}
+
+
+
+/* Button styling */
+.profile-btn {
+  background-color: #f2f2f2;   /* Light gray */
+  color: #333;                 /* Dark gray text */
+  text-transform: capitalize;
+  font-weight: 500;            /* Not too bold, not too light */
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;  /* Slight border for definition */
+  transition: background-color 0.3s ease; /* Smooth color change */
+  /* font-weight: 100px;
+  size: 50px; */
+  font-size: 0.8rem;   /* Reduced font size */
+  padding: 4px 8px;    /* Reduced padding */
+  border: 1px #d9d9d9; /* Slight border for definition */
+  display: none;
+  min-width: 80px;
+
+}
+
+.profile-btn:hover {
+  background-color: #e6e6e6;  /* Slightly darker gray on hover */
+}
+
+.profile-btn:focus {
+  outline: none;               /* Remove the browser's default focus outline */
+  cursor: pointer;           
+}
+
+.profile-container .profile-btn, .follow-btn{
+    display: block;
+}
+
+.follow-btn{
+    display: block;
+}

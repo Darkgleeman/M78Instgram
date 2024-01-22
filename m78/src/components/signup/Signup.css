@@ -1,0 +1,71 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container h1{
+  color: white;
+}
+
+.signup-form, .img {
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    /* border: solid 2px black; */
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    /* background-color: aliceblue; */
+}
+
+
+.custom-textfield {
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  border: none; /* No borders */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7); /* Semi-transparent white bottom border */
+  border-radius: 5px ; /* No border radius for a flat design as in the image */
+  color: white; /* White text color */
+}
+
+.custom-textfield input {
+  color: white; /* White text color for the input field */
+}
+
+.custom-textfield label {
+  color: rgba(246, 246, 246); /* Lighter white color for the label */
+  top:-3.5px
+}
+
+.custom-textfield label.Mui-focused {
+  color: rgb(255, 255, 255);
+}
+
+
+.custom-textfield .MuiInput-underline:after {
+  border-bottom: 2px solid white; /* White bottom border for when the input is focused */
+}
+
+.custom-textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important; /* Set border-color to transparent or any other color */
+}
+
+.login-footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+}
+
+.custom-textfield {
+  position: relative;
+  padding-top: 18px; /* Adjust this value to create enough space for the label above the input */
+}
+

@@ -1,0 +1,34 @@
+/* Container for the profile */
+.profile-container {
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 40px;
+}
+
+.profile-container .profile-bar{
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e0e0e0;
+  height: 100%;
+}
+
+.profile-container .profilebar-container .right-panel{
+    padding-left: 3em;
+}
+
+.profile-container .account-portrait .profilebar-avatar {
+
+    --diameter: 10.5vh; 
+    width: var(--diameter);
+    height: var(--diameter);
+
+}
+  
+

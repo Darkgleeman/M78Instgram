@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Weather app matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="item"
+        id="two"
+      >
+        <h1
+          className="app-name"
+          color="white"
+        >
+          M78
+        </h1>
+        <div
+          className="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root custom-textfield css-17vbkzs-MuiFormControl-root-MuiTextField-root"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink={false}
+            htmlFor="username"
+            id="username-label"
+          >
+            Username
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={true}
+              className="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              disabled={false}
+              id="username"
+              name="username"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="css-yjsfm1"
+              >
+                <span>
+                  Username
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          className="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root custom-textfield css-17vbkzs-MuiFormControl-root-MuiTextField-root"
+          onKeyDown={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink={false}
+            htmlFor="password"
+            id="password-label"
+          >
+            Password
+          </label>
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              disabled={false}
+              id="password"
+              name="password"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="password"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="css-yjsfm1"
+              >
+                <span>
+                  Password
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <a
+          className="forget-password-prompt"
+          href="/login"
+          onClick={[Function]}
+          style={
+            {
+              "color": "white",
+              "float": "left",
+              "marginTop": "10px",
+            }
+          }
+        >
+          Forgot your password?
+        </a>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-1drpt8a-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="submit"
+        >
+          Sign In
+        </button>
+        <div
+          style={
+            {
+              "marginRight": "auto",
+            }
+          }
+        >
+          <div>
+            Don't have an account? 
+            <a
+              href="/signup"
+              onClick={[Function]}
+              style={
+                {
+                  "color": "white",
+                }
+              }
+            >
+               Sign Up! 
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="login-footer"
+      >
+        <div
+          className="fixed-site-footer"
+        >
+          <p>
+            Every Pixel Tells a Story @M78
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

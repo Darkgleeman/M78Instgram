@@ -1,0 +1,38 @@
+.post-media-container {  /* if media is a video */
+    width: 470px;
+    height: 470px;  
+    display: block;
+    /* margin: 0 auto; */
+    /* overflow: hidden;  */
+    font-family: 'Roboto', sans-serif; 
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+.imageSize {
+  width: 470px;
+  height: 470px;
+}
+
+.post-media-video, 
+.post-media-video video,
+.post-media-image,
+.post-media-image img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.post-media-image img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.post-media-video video{
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}

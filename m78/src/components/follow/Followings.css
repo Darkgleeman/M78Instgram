@@ -1,0 +1,45 @@
+/* Container for the profile */
+  .followings-container {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .followings-list {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+  }
+  .followings-list .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+  }
+  .followings-list .followings-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 100%;
+  }
+  .followings-container .profilebar-container {
+    width: 100%;
+    transition: all 0.3s ease; 
+    min-width: 360px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .followings-container .profilebar-container:hover {
+    box-shadow: 0 4px 8px rgba(37, 37, 37, 0.1);
+    background-color: rgb(231, 239, 243);
+    opacity: 0.8;
+    /* padding-top: 10spx;  */
+}

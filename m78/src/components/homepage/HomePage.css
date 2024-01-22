@@ -1,0 +1,67 @@
+/* HomePage.css */
+
+.homepage {
+  display: flex;
+  justify-content: flex-start;
+  min-height: 100vh;  /* occupies full viewport height */
+  padding: 2rem 0;    /* some padding on top and bottom */
+   /* prevents the homepage from shrinking when the viewport is too small */
+   min-width: 600px;
+   /* flex-shrink: none; */
+}
+
+.homepage .recommend-bar{
+    margin-right: 5%;
+    padding-top: 2em;
+}
+
+.homepage .recommend-bar .recommend-bar-item .profilebar-container:hover{
+  background-color: #eff7ff;
+  border-radius: 8px;
+  box-shadow: inset 0 0 5px #f7f8f9;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.homepage .recommend-bar .recommend-bar-item .profilebar-avatar{
+   --diameter: 5vh; 
+    width: var(--diameter);
+    height: var(--diameter);
+}
+
+.homepage .recommend-bar .recommend-bar-item .right-panel{
+  padding-left: 1.5em;
+  padding-right: 40px;
+  padding-top: 2px;
+  height: fit-content;
+  min-height: fit-content;
+}
+
+.homepage .recommend-bar .recommend-bar-item .right-panel .usr-info{
+  padding-bottom: 3px;
+  font-size: 16px;
+}
+
+.homepage .recommend-bar .recommend-bar-item .right-panel .usr-stats-container{
+  font-size: 14px;
+}
+
+.homepage .recommend-bar .recommend-bar-item .right-panel .bio{
+  margin-top: 0;
+  font-size: 12px;
+
+}
+
+@media screen and (max-width: 1150px) {
+  .homepage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .homepage .recommend-bar{
+    display: none;
+  }
+}
+
+
+
+
